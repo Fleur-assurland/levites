@@ -1,5 +1,5 @@
 import { Testimonials } from "@/components/testimonials"
-import { Footer } from "react-day-picker"
+import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { Impact } from "@/components/impact"
 import { HeroImpact } from "@/components/hero_impact"

@@ -4,7 +4,7 @@ import { Programs } from "@/components/programs"
 import { About } from "@/components/about"
 import { Testimonials } from "@/components/testimonials"
 import { CallToAction } from "@/components/call-to-action"
-import { Footer } from "react-day-picker"
+import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 
 export default function Home() {

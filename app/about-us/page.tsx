@@ -1,5 +1,5 @@
 import { Testimonials } from "@/components/testimonials"
-import { Footer } from "react-day-picker"
+import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import AboutPage from "@/components/about-us"
 export default function About_us() {
