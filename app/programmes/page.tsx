@@ -1,4 +1,4 @@
-import { Testimonials } from "@/components/testimonials"
+import { TestimonialsHome } from "@/components/testimonials-home"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { Programs } from "@/components/programs"
@@ -10,7 +10,7 @@ export default function Programmes() {
             <Navigation />
             <HeroPrograms />
             <Programs />
-            <Testimonials />
+            <TestimonialsHome />
             <Footer />
         </main>
     )

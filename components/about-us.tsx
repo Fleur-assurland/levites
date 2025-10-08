@@ -113,7 +113,8 @@ export default function AboutPage() {
                 <div className="absolute -bottom-6 left-6 right-6 bg-card/95 backdrop-blur-sm p-5 rounded-2xl border border-border shadow-xl">
                   <div className="flex items-center gap-4">
                     <div className="flex-shrink-0 w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center">
-                      <HeartPulse className="w-7 h-7 text-muted-foreground" />                    </div>
+                      <HeartPulse className="w-7 h-7 text-muted-foreground" />
+                    </div>
                     <div>
                       <p className="text-2xl font-bold text-foreground">70%</p>
                       <p className="text-xs text-muted-foreground">de survie avec traitement précoce</p>
@@ -327,16 +328,16 @@ export default function AboutPage() {
               <img
                 src="/grandmother.jpg"
                 alt="Famille heureuse après traitement"
-                className="w-full h-[600px] md:h-[600px] object-cover"
+                className="w-full h-[400px] md:h-[400px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-foreground/20 to-transparent" />
 
               <div className="absolute bottom-8 left-8 right-8">
-                <div className="bg-card/95 backdrop-blur-sm p-6 rounded-2xl border border-border">
+                <div className="bg-card/95 backdrop-blur-sm p-6 rounded-xl border border-border">
                   <p className="text-lg text-foreground font-semibold mb-2">
                     "Aujourd'hui, je vois mes petits-enfants grandir. Je n'aurais jamais cru ça possible."
                   </p>
-                  <p className="text-sm text-muted-foreground">— Kouassi, 66 ans, guéri de l'hépatite C</p>
+                  <p className="text-sm text-muted-foreground">— Kouassi Marie, 66 ans, guéri de l'hépatite C</p>
                 </div>
               </div>
             </div>

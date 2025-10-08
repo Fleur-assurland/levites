@@ -1,5 +1,5 @@
 import { Hero } from "@/components/hero"
-import { Testimonials } from "@/components/testimonials"
+import { TestimonialsHome } from "@/components/testimonials-home"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { Don } from "@/components/dons"
@@ -10,7 +10,7 @@ export default function Dons() {
             <Navigation />
             <HeroDons />
             <Don />
-            <Testimonials />
+            <TestimonialsHome />
             <Footer />
         </main>
     )

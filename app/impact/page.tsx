@@ -1,4 +1,4 @@
-import { Testimonials } from "@/components/testimonials"
+import { TestimonialsHome } from "@/components/testimonials-home"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
 import { Impact } from "@/components/impact"
@@ -10,7 +10,7 @@ export default function Impacts() {
             <Navigation />
             <HeroImpact />
             <Impact />
-            <Testimonials />
+            <TestimonialsHome />
             <CallToActionImpact />
             <Footer />
         </main>

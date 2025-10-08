@@ -41,6 +41,21 @@ export function Testimonials() {
       author: "Sophie M.",
       role: "Famille accompagnée",
     },
+    {
+      quote: "Grâce à l'association, j'ai pu accéder à un traitement complet et à un accompagnement humain. Aujourd'hui, j'ai retrouvé l'espoir.",
+      author: "Aya O.",
+      role: "Bénéficiaire du programme Cancer du foie",
+    },
+    {
+      quote: "Les bénévoles m'ont soutenu moralement et financièrement. Je ne me suis jamais senti seul dans ma bataille contre la maladie.",
+      author: "Serge K.",
+      role: "Famille accompagnée",
+    },
+    {
+      quote: "LES LÉVITES INTER m'ont offert non seulement un suivi médical, mais aussi une famille de cœur.",
+      author: "Jean B.",
+      role: "Bénéficiaire du programme hépatites",
+    },
   ]
 
   return (
@@ -53,14 +68,14 @@ export function Testimonials() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            Ils témoignent
+            Ecoutez leurs histoires
           </h2>
           <p
             className={`text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            Des histoires de courage, d'espoir et de solidarité
+            Des histoires de courage, d'espoir et de solidarité.
           </p>
         </div>
 

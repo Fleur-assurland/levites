@@ -18,11 +18,11 @@ export function Navigation() {
 
   const navLinks = [
     { href: "/", label: "Accueil" },
+    { href: "/about-us", label: "À Propos" },
     { href: "/impact", label: "Notre Impact" },
     { href: "/programmes", label: "Programmes" },
-    { href: "/testimonial", label: "Témoignages" },
-    { href: "/about-us", label: "À Propos" },
     { href: "/caravanes", label: "Nos Caravanes" },
+    { href: "/testimonial", label: "Témoignages" },
   ]
 
   return (

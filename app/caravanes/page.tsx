@@ -1,14 +1,17 @@
-import { Hero } from "@/components/hero"
-import { Testimonials } from "@/components/testimonials"
+import { TestimonialsHome } from "@/components/testimonials-home"
 import { Footer } from "@/components/footer"
 import { Navigation } from "@/components/navigation"
-import { Don } from "@/components/dons"
-import { HeroDons } from "@/components/hero_dons"
+import { HeroCaravanes } from "@/components/hero_caravanes"
+import { Caravane } from "@/components/caravane"
+import { CallToActionCaravane } from "@/components/call-to-action-caravane"
 export default function Caravanes() {
     return (
         <main className="min-h-screen">
             <Navigation />
-            <Testimonials />
+            <HeroCaravanes />
+            <Caravane />
+            <TestimonialsHome />
+            <CallToActionCaravane />
             <Footer />
         </main>
     )
