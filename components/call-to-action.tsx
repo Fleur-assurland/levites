@@ -61,6 +61,7 @@ export function CallToAction() {
                 Faire un Don
               </Button>
             </Link>
+             <Link href="/benevoles">
             <Button
               size="lg"
               variant="outline"
@@ -68,6 +69,7 @@ export function CallToAction() {
             >
               Devenir Bénévole
             </Button>
+            </Link>
           </div>
 
           {/* Contact rapide */}

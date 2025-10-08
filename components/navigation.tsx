@@ -83,7 +83,12 @@ export function Navigation() {
                   {link.label}
                 </a>
               ))}
-              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">Faire un Don</Button>
+              <Link href="/dons">
+                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">Faire un Don</Button>
+              </Link>
+              <Link href="/benevoles">
+                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground w-full">Devenir bénévoles</Button>
+              </Link>
             </div>
           </div>
         )}

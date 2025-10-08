@@ -26,6 +26,11 @@ export function Footer() {
             <h4 className="text-lg font-bold mb-4">Liens Rapides</h4>
             <ul className="space-y-2">
               <li>
+                <a href="/about-us" className="text-background/80 hover:text-background transition-colors">
+                  À Propos
+                </a>
+              </li>
+              <li>
                 <a href="/impact" className="text-background/80 hover:text-background transition-colors">
                   Notre Impact
                 </a>
@@ -38,11 +43,6 @@ export function Footer() {
               <li>
                 <a href="/testimonial" className="text-background/80 hover:text-background transition-colors">
                   Témoignages
-                </a>
-              </li>
-              <li>
-                <a href="/about-us" className="text-background/80 hover:text-background transition-colors">
-                  À Propos
                 </a>
               </li>
             </ul>
@@ -58,7 +58,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-background transition-colors">
+                <a href="/benevoles" className="text-background/80 hover:text-background transition-colors">
                   Devenir Bénévole
                 </a>
               </li>
@@ -68,7 +68,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-background transition-colors">
+                <a href="/caravanes" className="text-background/80 hover:text-background transition-colors">
                   Événements
                 </a>
               </li>

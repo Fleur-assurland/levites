@@ -59,13 +59,15 @@ export function CallToActionCaravane() {
                 Soutenir la Caravane
               </Button>
             </Link>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
-            >
-              Devenir Bénévole
-            </Button>
+            <Link href="/benevoles">
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
+              >
+                Devenir Bénévole
+              </Button>
+            </Link>
           </div>
 
           {/* Contact rapide */}

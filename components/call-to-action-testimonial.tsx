@@ -36,44 +36,43 @@ export function CallToActionTestimonial() {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div
-            className={`transition-all duration-1000 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}
+            className={`transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+              }`}
           >
             <Heart className="mx-auto mb-8" size={64} />
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
               Vous aussi, écrivez une nouvelle histoire.
             </h2>
             <p className="text-xl md:text-2xl mb-12 leading-relaxed text-primary-foreground/90 text-pretty">
-             Grâce à votre générosité, nous pouvons continuer à apporter soins, écoute et espoir à des centaines de familles.
+              Grâce à votre générosité, nous pouvons continuer à apporter soins, écoute et espoir à des centaines de familles.
             </p>
           </div>
 
           {/* Boutons d'action */}
           <div
-            className={`flex flex-col sm:flex-row gap-4 justify-center mb-16 transition-all duration-1000 delay-200 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}
+            className={`flex flex-col sm:flex-row gap-4 justify-center mb-16 transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+              }`}
           >
-             <Link href="/dons">
+            <Link href="/dons">
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6">
                 Faire un Don
               </Button>
             </Link>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
-            >
-              Devenir Bénévole
-            </Button>
+            <Link href="/benevoles">
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
+              >
+                Devenir Bénévole
+              </Button>
+            </Link>
           </div>
 
           {/* Contact rapide */}
           <div
-            className={`grid md:grid-cols-2 gap-6 max-w-2xl mx-auto transition-all duration-1000 delay-400 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}
+            className={`grid md:grid-cols-2 gap-6 max-w-2xl mx-auto transition-all duration-1000 delay-400 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+              }`}
           >
             <a
               href="mailto:contact@leslevitesinter.com"
